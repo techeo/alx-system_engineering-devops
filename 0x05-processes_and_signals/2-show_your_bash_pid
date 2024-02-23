@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Displays a list of currently running processes containing the keyword "bash"
+
+pgrep -l -f bash
+
