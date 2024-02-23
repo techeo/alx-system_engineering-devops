@@ -2,5 +2,5 @@
 
 # Displays a list of currently running processes containing the keyword "bash"
 
-pgrep -l -f bash
+ps -aux | grep bash
 
