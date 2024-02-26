@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-
-# Show processes for all users
-# Display user-oriented processes
-# Include processes not attached to a terminal
-# Display a full listing, icluding the processes hierarchy
+# Displays list of currently running processes
+# Must show all processes, for all users, including those which might not have a TTY
+# Display a user-oriented format
+# Show process hierarchy
 
 ps -a -x -u -f
+
