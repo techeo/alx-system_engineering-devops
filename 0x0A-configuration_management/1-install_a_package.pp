@@ -1,3 +1,5 @@
+#!/usr/bin/pup
+
 # Define a package resource to install Flask via pip3
 package { 'Flask':
   # Specify the provider as pip3 to install packages using pip3
