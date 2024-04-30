@@ -40,8 +40,8 @@ frontend techeo-tech-frontend
 
 backend techeo-tech-backend
     balance roundrobin
-    server 151666-web-01 100.25.190.21:80 check
-    server 151666-web-02 54.160.77.90:80 check
+    server 530493-web-01 52.206.235.14:80 check
+    server 530493-web-02 18.207.233.255:80 check
 "
 
 # shellcheck disable=SC2154
